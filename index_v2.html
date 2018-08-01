@@ -4,12 +4,300 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script scr="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Juventus F.C. Tribute Page</title>
 </head>
 
-<body></body>
+<body id="main">
+    <!-- top navigation bar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#title">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#tribute-info">INFO</a>
+                    </li>
+                    <li>
+                        <a href="#top5s">TOP 5s</a>
+                    </li>
+                    <li>
+                        <a href="#media">MEDIA</a>
+                    </li>
+                    <li>
+                        <a href="#honours">HONOURS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- logo box - white -->
+    <div id="title" class="container-fluid text-center box whiteBox">
+        <h2>
+            <strong>Juventus F.C.</strong>
+        </h2>
+        <br>
+        <div id="img-div">
+            <img id="image" class="img-responsive center-block" src="http://woltag.com/wp-content/photos/2014/10/Juventus-Logo.jpg" alt="Juventus logo">
+        </div>
+        <h3 id="img-caption">The Old Lady</h3>
+    </div>
+    <!-- info box - gold -->
+    <div id="tribute-info" class="container-fluid box goldBox">
+        <h3 class="text-center margin">General info</h3>
+        <div class="row row-generalInfo">
+            <div class="col-sm-9 col-generalInfo">
+                <p>Juventus Football Club S.p.A. is a professional Italian association football club based in Turin, Piedmont.
+                    Founded in 1897 as Sport-Club Juventus by a group of young Torinese students.</p>
+                <p>Over time, the club has become a symbol of the nation's "Italianness", due to their tradition of success.
+                    This is reflected, among others, in the club's contribution to the national team, uninterrupted since
+                    the second half of the 1920s and recognised as one of the most influential in international football,
+                    having performed a decisive role in the World Cup triumphs of 1934, 1982 and 2006.</p>
+            </div>
+            <div class="col-sm-3 col-generalInfo">
+                <img class="img-responsive img-small" src="http://www.squawka.com/en/wp-content/uploads/2016/08/GettyImages-589306336-e1471512756415.jpg">
+            </div>
+        </div>
+        <br>
+        <div class="row row-generalInfo">
+            <div class="col-sm-3 col-generalInfo">
+                <img class="img-responsive img-small" src="http://stadiumdb.com/pictures/stadiums/ita/juventus_stadium/juventus_stadium31.jpg">
+            </div>
+            <div class="col-sm-9 col-generalInfo">
+                <p>Juventus is the most successful club in Italian football and one of the most awarded globally. Overall, they
+                    have won sixty-one official titles on the national and international stage, more than any other Italian
+                    club.
+                </p>
+                <p>According to the all-time ranking published in 2009 by the International Federation of Football History &amp;
+                    Statistics, based on clubs' performance in international competitions, Juventus were Italy's best club
+                    and second in Europe of the 20th century.</p>
+            </div>
+        </div>
+        <br>
+        <div class="text-center">
+            <a id="tribute-link" class="btn btn-default btn-lg" href="https://en.wikipedia.org/wiki/Juventus_F.C." target="_blank">Wikipedia entry
+                <span class="glyphicon glyphicon-hand-right"></span>
+            </a>
+        </div>
+    </div>
+    <!-- top 5s box - white -->
+    <div id="top5s" class="container-fluid box whiteBox">
+        <div>
+            <h3 class="text-center">All-time top 5 appearances</h3>
+            <p class="margin text-center">As of 14 May 2017 (competitive matches only):</p>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Name</th>
+                            <th>Years</th>
+                            <th>League</th>
+                            <th>Cup</th>
+                            <th>Europe</th>
+                            <th>Other</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Alessandro Del Piero</td>
+                            <td>1993–2012</td>
+                            <td>513</td>
+                            <td>56</td>
+                            <td>127</td>
+                            <td>9</td>
+                            <td>705</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Gianluigi Buffon</td>
+                            <td>2001–present</td>
+                            <td>487</td>
+                            <td>12</td>
+                            <td>114</td>
+                            <td>7</td>
+                            <td>620</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Gaetano Scirea</td>
+                            <td>1974-1988</td>
+                            <td>377</td>
+                            <td>88</td>
+                            <td>85</td>
+                            <td>2</td>
+                            <td>552</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Giuseppe Furino</td>
+                            <td>1969–1984</td>
+                            <td>361</td>
+                            <td>89</td>
+                            <td>78</td>
+                            <td>0</td>
+                            <td>528</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Roberto Bettega</td>
+                            <td>1970–1983</td>
+                            <td>326</td>
+                            <td>74</td>
+                            <td>81</td>
+                            <td>1</td>
+                            <td>482</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h3 class="text-center">All-time top 5 goalscorers</h3>
+            <p class="margin text-center">As of 20 August 2016 (competitive matches only):</p>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Name</th>
+                            <th>Years</th>
+                            <th>League</th>
+                            <th>Cup</th>
+                            <th>Europe</th>
+                            <th>Other</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Alessandro Del Piero</td>
+                            <td>1993–2012</td>
+                            <td>208</td>
+                            <td>25</td>
+                            <td>51</td>
+                            <td>6</td>
+                            <td>290</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Giampiero Boniperti</td>
+                            <td>1946–1961</td>
+                            <td>178</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>182</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Roberto Bettega</td>
+                            <td>1970–1983</td>
+                            <td>129</td>
+                            <td>22</td>
+                            <td>27</td>
+                            <td>0</td>
+                            <td>178</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>David Trezeguet</td>
+                            <td>2000–2010</td>
+                            <td>138</td>
+                            <td>2</td>
+                            <td>30</td>
+                            <td>1</td>
+                            <td>171</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Omar Sívori</td>
+                            <td>1957–1965</td>
+                            <td>135</td>
+                            <td>24</td>
+                            <td>8</td>
+                            <td>0</td>
+                            <td>167</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- media box - gold -->
+    <div id="media" class="container-fluid text-center box goldBox">
+        <h3 class="margin">Media</h3>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4>Juventus Anthem
+                    <h4>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j2etPUmHUbs"></iframe>
+                        </div>
+            </div>
+            <div class="col-sm-6">
+                <h4>Juventus Stadium Opening Ceremony Show</h4>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jBj9IAzvii8"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- honours box - white -->
+    <div id="honours" class="container-fluid text-center box whiteBox">
+        <h3 class="margin">Honours</h3>
+        <div class="row">
+            <div class="col-sm-3">
+                <h1>34</h1>
+                <br>
+                <img class="img-responsive center-block" src="http://www.juventus.com/pics/trophy/trophy_scudetto.png">
+                <h3>Scudetto</h3>
+            </div>
+            <div class="col-sm-3">
+                <h1>2</h1>
+                <br>
+                <img class="img-responsive center-block" src="http://www.juventus.com/pics/trophy/trophy_champions_league.png">
+                <h3>UEFA Champions League</h3>
+            </div>
+            <div class="col-sm-3">
+                <h1>11</h1>
+                <br>
+                <img class="img-responsive center-block" src="http://www.juventus.com/pics/trophy/trophy_coppa_italia.png">
+                <h3>Coppa Italia</h3>
+            </div>
+            <div class="col-sm-3">
+                <h1>3</h1>
+                <br>
+                <img class="img-responsive center-block" src="http://www.juventus.com/pics/trophy/trophy_coppa_uefa.png">
+                <h3>UEFA Europa League</h3>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid text-center">
+        <a href="#title" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Website Made By
+            <a href="https://www.freecodecamp.com/bojan-wik">bojan-wik</a>
+        </p>
+    </footer>
+</body>
 
 </html>

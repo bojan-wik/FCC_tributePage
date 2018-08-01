@@ -1,0 +1,73 @@
+/* general styles */
+
+body {
+    line-height: 1.8;
+  }
+
+p {
+    font-size: 16px;
+}
+
+/* top navigation bar styles */
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #BC8629 !important;
+  }
+
+/* page styles */
+
+.box {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.whiteBox {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.goldBox {
+    background-color: #b37700;
+    color: #ffffff;
+}
+
+.row-generalInfo {
+    position: relative;
+    height: 26rem;
+}
+
+.col-generalInfo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.margin {
+    margin-bottom: 45px;
+  }
+
+.img-small {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    /* box-shadow: 2px 2px 12px 0 #e0dede; */
+}
+
+/* footer styles */
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: #ffffff;
+}
+
+footer .glyphicon {
+    color: #b37700;
+  }
