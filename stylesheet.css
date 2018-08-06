@@ -1,12 +1,12 @@
 /* general styles */
 
-body {
-    line-height: 1.8;
-  }
-
 p {
     font-size: 16px;
 }
+
+h4 {
+    margin-bottom: 25px !important;
+  }
 
 /* top navigation bar styles */
 
@@ -30,6 +30,11 @@ p {
 .whiteBox {
     background-color: #ffffff;
     color: #555555;
+}
+
+#img-caption {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
 }
 
 .goldBox {
@@ -57,6 +62,10 @@ p {
     border-width: 2px;
     border-color: black;
     /* box-shadow: 2px 2px 12px 0 #e0dede; */
+}
+
+#top5s {
+    font-size: 18px;
 }
 
 /* footer styles */
